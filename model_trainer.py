@@ -504,7 +504,6 @@ def train_lightgcn_model(processed_data: Dict, config: Dict):
     training_history = trainer.train()
     return model, training_history
 
-# 使用示例
 if __name__ == "__main__":
     import pickle
     import pandas as pd
