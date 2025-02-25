@@ -465,7 +465,6 @@ class AnimeRecommender:
         
         return recommender
 
-# 使用示例
 def main():
     # 加载推荐器
     recommender = AnimeRecommender.load_from_directory(
